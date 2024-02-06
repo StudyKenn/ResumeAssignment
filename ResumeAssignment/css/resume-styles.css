@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Life Savers');
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: solid white 30px;
+    background-color: rgba(93, 149, 120, .85);
+    color: white;
+    font-size: 1.075em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    font-family: 'Life Savers', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sprouts, .roots {
+    margin-bottom: 8%;
+}
+
+.projects {
+    margin-top: 6%;
+}
+
+.sprout {
+    max-width: 90%;
+}
+
+a {
+    color: rgb(48, 75, 61);
+}
+a:hover {
+    color: rgba(24, 40, 32);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin-top: 5%;
+    color: black;
+ }

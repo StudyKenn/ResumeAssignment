@@ -1,0 +1,43 @@
+
+/* GLOBAL STYLES */
+@import url('https://fonts.googleapis.com/css?family=Life Savers');
+
+html {
+    background-image: url("../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 55%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 1.075em;
+}
+
+
+header {
+    font-family: 'Life Savers', serif;
+}
+
+
+main {
+    background-color: rgba(93, 149, 120, 0.85);
+    max-width: 90%;
+    padding: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10%;      
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    margin-top: 5%;
+    color: black;
+ }
